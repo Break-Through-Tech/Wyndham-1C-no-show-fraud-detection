@@ -41,7 +41,7 @@ The project addresses a relevant and timely issue in hospitality management—a 
 # No-Show Fraud Detection: Protecting Hotel Inventory from Loyalty Reservation Abuse
 
 **Company / Org:** Wyndham Hotels & Resorts  
-**Challenge Advisor:** Danielle Golinski, danielle.golinski@wyndham.com  
+**Challenge Advisor:** Seema Yadav, [Email address]     
 **Program:** Break Through Tech AI Studio - Fall 2026  
 
 ---
