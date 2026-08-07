@@ -47,7 +47,7 @@ The project addresses a relevant and timely issue in hospitality management—a 
 ---
 
 ## 🏢 About Wyndham Hotels & Resorts
-Wyndham Hotels & Resorts is a global leader in the hospitality industry, operating a vast portfolio of hotel brands across various price points and geographic regions. The team's objective is to safeguard inventory and maintain the integrity of their loyalty program by identifying and mitigating fraudulent reservation patterns.
+Wyndham Hotels & Resorts is a global leader in the hospitality industry, operating a vast portfolio of hotel brands across various price points and geographic regions. 
 
 ---
 
