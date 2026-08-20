@@ -1,0 +1,31 @@
+column,business_name,type,null_rule,definition
+address_line_1,Address Line 1,string,never,Synthetic member or guest street address
+booking_channel,Booking Channel,category,never,"Where the member or guest booked the stay, i.e. ""Website, Mobile App, OTA, Voice, Property Direct, or GDS"""
+booking_timestamp,Booking Date/timestamp,ISO-8601 timestamp,never,Time the reservation was created
+cancellation_date,Cancellation Date,date,blank unless canceled,Date the reservation was cancelled; Populated for qualification code = QXN and qualification code = QXY scenarios
+check_in_date,Check In Date,date,never,Planned arrival date
+check_out_date,Check Out Date,date,never,Planned checkout date
+city,City,string,never,Synthetic member or guest city
+confirmation_number,Confirmation Number,string,never,Unique reservation identifier and one-to-one join key to stays
+country,Country,string,never,ISO-like country code for member or guest address
+email,Email,string,never,Synthetic address using requested provider-style domains
+first_name,First Name,string,never,Synthetic guest first name
+last_name,Last Name,string,never,Synthetic guest last name
+member_enrollment_date,Member Enrollment Date,date,blank when member_number blank,Loyalty Account enrollment date
+member_enrollment_source,Member Enrollment Source,category,blank when member_number blank,Loyalty Account acquisition source
+member_language_preference,Member Language Preference,category,blank when member_number blank,Language preference member selects when enrolling - used to indicate language they want to receive marketing emails; One of en_US en_CA en_AP en_UK de_DE es_XL fr_CA pt_PT zh_CN
+member_number,Member Number,string,blank for nonmembers,Neutral eleven-character alphanumeric synthetic loyalty identifier
+phone_number,Phone Number,string,never,Synthetic Excel-safe North American-style phone number
+points_earned,Points Earned,integer,never,"Number of points earned for a completed stay. SDC4 rate code earns 20 points per dollar; other QC, QNS, and QXY qualification codes / rate codes earn 10; otherwise zero."
+points_redeemed,Points Redeemed,integer,only SRB,Negative redemption amount: -5000 -15000 -30000 or -45000
+qualification_code,Qualification Code,category,never,Indicate whether a stay meets criteria to earn Loyalty points. Options include: QC = qualifying and earns points; DQ = disqualified and doesn't earn points; QNS = no-show earning; QXY = late cancel earning; QXN = in-policy cancel no earning
+rate_code,Rate Code,string,never,SRB indicates a Free Night Stay booking where a member redeems their points to book; all others indicate Paid Stays
+room_revenue,Room Revenue,decimal,never,Synthetic posted room revenue; zero for SRB and QXN
+site_brand,Site Brand,category,never,Fabricated hotel brand
+site_country,Site Country,string,never,Property-country code distinct from guest country
+site_id,Site ID,string,never,Six-digit synthetic unique property identifier
+site_name,Site Name,string,never,Synthetic property city label
+site_region,Site Region,category,never,NAMER (North America) or APAC (Greater China Region)
+site_tier,Site Tier,category,never,"Economy, Midscale, Upper Midscale, Upscale, or Luxury"
+state,State,string,never,Synthetic state or province
+zip,Zip,string,never,Synthetic postal code; preserve as text
