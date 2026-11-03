@@ -60,6 +60,10 @@
 * Insights from your Exploratory Data Analysis (EDA)
 * Challenges and assumptions when working with the dataset(s)
 
+*Added Variables*
+* 'account_age'
+-The amount of days between an account being created and their first booking. 
+
 **Potential visualizations to include:**
 
 * Plots, charts, heatmaps, feature visualizations, sample dataset images
