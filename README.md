@@ -60,7 +60,7 @@
 * Insights from your Exploratory Data Analysis (EDA)
 * Challenges and assumptions when working with the dataset(s)
 
-*Added Variables*
+**Added Variables**
 * 'account_age'
 -The amount of days between an account being created and their first booking. 
 
