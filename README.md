@@ -11,7 +11,7 @@
 | Name             | GitHub Handle | Contribution                                                             |
 |------------------|---------------|--------------------------------------------------------------------------|
 | Ellie Torres    | @ellie.ana.torres@gmail.com | Data exploration, visualization, overall project coordination            |
-| Name   | @email     | Data collection, exploratory data analysis (EDA), dataset documentation  |
+| Murtaza Khan   | myprojectstorage1747     | Feature engineering, Model selection, Model development  |
 | Name     | @email  | Data preprocessing, feature engineering, data validation                 |
 | Name     | @email       | Model selection, hyperparameter tuning, model training and optimization  |
 | Name       | @email    | Model evaluation, performance analysis, results interpretation           |
