@@ -1,0 +1,12 @@
+{
+  "features": "extended",
+  "unseen_accounts": false,
+  "min_score": 30,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "alerts": 2100,
+  "fraud_caught": 1600,
+  "fraud_total": 1600,
+  "recall": 1.0,
+  "precision": 0.7619
+}
